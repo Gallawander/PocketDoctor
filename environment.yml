@@ -1,0 +1,12 @@
+name: pocketdoctor
+
+dependencies:
+  - python=3.13.2
+  - pip=25.0
+  # DEV
+  - ruff=0.9.7
+  - mypy=1.14.1
+  - isort=5.13.2
+  - black=24.10.0
+  - pip:
+    - streamlit==1.42.2 
